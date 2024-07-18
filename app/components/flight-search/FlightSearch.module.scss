@@ -1,0 +1,39 @@
+.flight-search {
+    @apply w-full;
+}
+
+.error {
+    @apply text-error;
+}
+
+.form {
+    @apply relative mt-6;
+
+    label > span {
+        @apply text-gray-300;
+    }
+}
+
+.input {
+    @apply appearance-auto w-full min-h-12 mt-2 pl-5 pr-14 py-3 text-primary border border-gray-100 border-b-secondary;
+
+    &::placeholder {
+        @apply text-gray-300;
+    }
+
+    &:focus {
+        @apply shadow-md outline-none;
+    }
+}
+
+.list {
+    @apply list-none p-0 border-b-gray-100;
+}
+
+.loader {
+    @apply mt-4;
+}
+
+.list-item {
+    @apply py-5 border border-x-0 border-t-0 border-b-gray-100;
+}
